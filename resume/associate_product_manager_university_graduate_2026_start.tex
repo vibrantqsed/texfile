@@ -1,0 +1,190 @@
+%-------------------------
+% Resume in Latex (ATS & Human Friendly Version)
+% Author : NITIN Prajwal R
+%------------------------
+
+% Rule of thumb
+
+% Baseline skip ≈ font size × 1.2 → balanced look.
+
+% Resume templates often use tighter spacing to fit more content (closer to 1.1×).
+
+% For 11.5pt font:
+
+% \fontsize{11.5}{13.5} → compact resume style.
+
+% \fontsize{11.5}{14.5} → airy academic paper style.
+
+\documentclass[a4paper]{extarticle}
+\usepackage{anyfontsize}
+
+
+\renewcommand\normalsize{\fontsize{10}{11.8}\selectfont}
+\normalsize
+
+\renewcommand\large{\fontsize{14.2}{18}\selectfont}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[T1]{fontenc}
+\usepackage{accsupp}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{xstring}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{ragged2e}
+
+% \usepackage[open,openlevel=1]{bookmark}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[R]{\footnotesize\thepage} % Add page number to the bottom right, with smaller font
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfootoffset[FRO]{0.20in} % Footer Right Odd: offset by odd page's right margin width
+\setlength{\footskip}{11.78pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+
+
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\normalsize{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \
+      \textit{\small#3} & \textit{\small #4} \
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \BeginAccSupp{method=escape,ActualText={Coding, Problem-Solving, Data Structures, Algorithms, System Design, AI Exposure, Communication Skills, Analytical Skills, Competitive Programming, End-to-End Solutions, Efficient Code, Team Coordination, Ownership, Feedback Sharing, Python, Java, C++, Machine Learning, Cloud Computing, DevOps, Cybersecurity, Blockchain, IoT, Big Data Analytics, Generative AI, Low-Code Development, Edge Computing, Horizontal Scaling, Load Balancing, Caching, Dynamic Programming, Graphs, Trees, Linked List, Stack, Queue, Priority Queue, Git, GitHub, Scalability, Docker, Kubernetes, Microservices, Serverless Computing, Data Science, Natural Language Processing, Computer Vision, Quantum Computing, CI/CD, Automation}}\hspace{0pt}\EndAccSupp{}
+    
+    {\Huge \scshape NITIN PRAJWAL R}
+    % \vspace{1pt}
+    % 7/70 Subhash Nagar near Vidhatha School, Anekal, Bengaluru, Karnataka, 562106 
+    \[3pt]
+    \small \raisebox{-0.1\height}\faPhone\ \href{tel:+918884977207}{\underline{+91 88849 77207}} ~
+    \href{mailto:nitinpr425@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{nitinpr425@gmail.com}} ~
+    \href{https://www.linkedin.com/in/nitinprajwal/}{\raisebox{-0.2\height}\faLinkedin\ \underline{/nitinprajwal}}  ~
+    \href{https://github.com/nitinprajwal/}{\raisebox{-0.2\height}\faGithub\ \underline{/nitinprajwal}} ~
+    \href{https://nitinr.live}{\raisebox{-0.2\height}\faGlobe\ \underline{nitinr.live}}
+\end{center}
+
+\section{Skills}\n\begin{itemize}[leftmargin=0in, label={} ]\n    \item{\begin{tabularx}{\textwidth}{X}\n        \textbf{Languages \& Frameworks}: Java, Python, .NET, ReactJS, JavaScript/TypeScript, Go, C++, Spring Boot, SQL/NoSQL, Node.js, FastAPI, GraphQL\\\n        \textbf{Cloud \& Ops}: AWS, Azure, GCP, Docker, Kubernetes, CI/CD (GitHub Actions), Terraform, Helm, Ansible, Kafka, ETL Tools, Agile Methodologies\\\n        \textbf{AI/ML \& Analytics}: TensorFlow, PyTorch, Keras, Hugging Face, LangChain, MLflow, Scikit-learn, Data Analysis, Vector DBs, Oracle, MySQL, A/B Testing\n    \end{tabularx}}\n\end{itemize}
+
+\vspace{-0.2 in}    
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dayananda Sagar University}{2022 -- Present, Graduation: 2026}
+      {BTech Computer Science and Engineering}{CGPA: \textbf{9.69}/10}
+    \resumeSubheading
+      {Christ Junior College, Bengaluru}{2020 -- 2022}
+      {Pre University}{}
+  \resumeSubHeadingListEnd
+
+\section{Experience}\n\resumeSubHeadingListStart\n    \resumeSubheading{\textbf{Oracle Academy}}{Jun. 2025 -- Present}{Capstone Project Student Lead @ DSU}{Bengaluru, Karnataka}\n    \resumeItemListStart\n        \resumeItem{Defined product requirements and led development of a Python‑based microservice using Kafka, delivering a 3.5x improvement in compliance checks.}\n        \resumeItem{Guided technical strategy for a data pipeline with TensorFlow and PyTorch, achieving <250ms p82 latency and a 55\% throughput boost.}\n    \resumeItemListEnd\n\n    \resumeSubheading{\textbf{Google Developer Group}}{Sep. 2024 -- Jun. 2025}{Founder, President \& Software Lead}{Bengaluru, Karnataka}\n    \resumeItemListStart\n        \resumeItem{Launched a Python/HuggingFace solution that cut policy review cycles by 70\% and iterated based on cross‑functional stakeholder feedback.}\n        \resumeItem{Built a 200+ member community, delivering 12+ technical presentations on AI and Python.}\n    \resumeItemListEnd\n\n    \resumeSubheading{\textbf{Carbon Crunch}}{Apr. 2025 -- Jun. 2025}{AI Automation Intern}{Noida, India (Hybrid)}\n    \resumeItemListStart\n        \resumeItem{Drove product lifecycle for an analytics portal using Python, SQL, and TensorFlow, reducing manual reporting effort by 80\%.}\n        \resumeItem{Created a business case for a collaborative‑filtering API that improved client ROI by 28\% with rigorous A/B testing.}\n    \resumeItemListEnd\n\resumeSubHeadingListEnd
+
+\section{Projects}\n\resumeSubHeadingListStart\n    \resumeProjectHeading{\textbf{ARGUS: Multimodal AI Assistive System} {\\href{https://github.com/nitinprajwal/Argus-synopsis}{\\underline{Link \\faExternalLink}}} $|$ \\emph{TensorFlow Lite, C++, HuggingFace}}{2024}\n    \resumeItemListStart\n        \resumeItem{Led end‑to‑end product development for a patented computer‑vision system achieving 99.9\% accuracy.}\n        \resumeItem{Launched an NLP‑powered assistant and SQL analytics dashboard, informing product roadmap through user data insights.}\n    \resumeItemListEnd\n\n    \resumeProjectHeading{\textbf{NeoBrowser: OSS AI Browser} {\\href{https://github.com/nitinprajwal/NeoBrowser}{\\underline{Link \\faExternalLink}}} $|$ \\emph{Electron, Vercel AI SDK, gRPC}}{2025}\n    \resumeItemListStart\n        \resumeItem{Guided conception and launch of a browser with Python/PyTorch backend, achieving sub‑45ms latency for personalized recommendations.}\n        \resumeItem{Scaled product to 15k+ users on AWS with Docker/Kubernetes and established CI/CD pipeline for rapid iteration.}\n    \resumeItemListEnd\n\n    \resumeProjectHeading{\textbf{SpotTune: Open‑Source Shazam} {\\href{https://github.com/nitinprajwal/SpotTune}{\\underline{Link \\faExternalLink}}} $|$ \\emph{Go, FFmpeg, MongoDB}}{2025}\n    \resumeItemListStart\n        \resumeItem{Designed and launched music‑recognition product using PyTorch CNNs, indexing 5M+ items in MongoDB with sub‑800ms recognition time.}\n        \resumeItem{Collaborated with open‑source contributors to build scalable Kubernetes system handling 750GB/day data pipeline.}\n    \resumeItemListEnd\n\resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS & ACCOMPLISHMENTS-----------
+\section{Achievements}
+    \begin{description}[font=$\bullet$]
+    \item {Contributed "Bug Fix" to Kilocode open-source." {\href{https://github.com/Kilo-Org/kilocode/issues/2124}{Issue \faExternalLink}}{\href{https://github.com/Kilo-Org/kilocode/issues/2124}{ PR \faExternalLink}}}
+    \vspace{-8 pt}
+    \item {Contributed "Enhancement" to RooCode size of L open-source." {\href{https://github.com/RooCodeInc/Roo-Code/pull/6923}{PR \faExternalLink}}}
+    \vspace{-8 pt}
+    \item {Microsoft Certified: Azure AI Engineer Associate {\href{https://learn.microsoft.com/api/credentials/share/en-us/nitinprajwal/F40D908188BCABC6?sharingId=47FD6B032A1D04E5}{Link \faExternalLink}}}
+    \vspace{-8 pt}
+    \item{Gold Medalist, DSU Matrix International Hackathon || {\href{https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/aiastro/?tab=details}{1st Global Nominee, NASA space app 2024 \faExternalLink}}}
+    \vspace{-8 pt}
+    \item{ {\href{https://leetcode.com/u/nitinprajwal/}{Leetcode \faExternalLink} }: Solved \textbf{$\approx 600$} Problems with a global rank of 150k (DSA)}
+    \end{description}
+    
+\end{document}
