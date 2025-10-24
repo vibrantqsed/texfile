@@ -1,0 +1,253 @@
+%-------------------------
+% Resume in Latex (ATS & Human Friendly Version)
+% Author : NITIN Prajwal R
+%------------------------
+
+% Rule of thumb
+
+% Baseline skip ≈ font size × 1.2 → balanced look.
+
+% Resume templates often use tighter spacing to fit more content (closer to 1.1×).
+
+% For 11.5pt font:
+
+% \fontsize{11.5}{13.5} → compact resume style.
+
+% \fontsize{11.5}{14.5} → airy academic paper style.
+
+\documentclass[a4paper]{extarticle}
+\usepackage{anyfontsize}
+
+
+\renewcommand\normalsize{\fontsize{9}{11}\selectfont}
+\normalsize
+
+\renewcommand\large{\fontsize{14}{18}\selectfont}
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage[T1]{fontenc}
+\usepackage{accsupp}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\usepackage{multicol}
+\usepackage{xstring}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage{ragged2e}
+
+% \usepackage[open,openlevel=1]{bookmark}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[R]{\footnotesize\thepage} % Add page number to the bottom right, with smaller font
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfootoffset[FRO]{0.20in} % Footer Right Odd: offset by odd page's right margin width
+\setlength{\footskip}{11.78pt}
+
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+
+
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\normalsize{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \
+      \textit{\small#3} & \textit{\small #4} \
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \BeginAccSupp{method=escape,ActualText={Coding, Problem-Solving, Data Structures, Algorithms, System Design, AI Exposure, Communication Skills, Analytical Skills, Competitive Programming, End-to-End Solutions, Efficient Code, Team Coordination, Ownership, Feedback Sharing, Python, Java, C++, Machine Learning, Cloud Computing, DevOps, Cybersecurity, Blockchain, IoT, HRIS, Human Resources Information Systems, Employee Records, Onboarding, Offboarding, Backend Development, Django, PostgreSQL, MongoDB, Data Integrity, Scalability, Unified Platform, Global Expansion, Software Development Lifecycle, SDLC, Cross-functional Collaboration, Innovation, Mentorship, Entrepreneurial Spirit, Work Hard Play Harder, Diverse Inclusive Culture, Transforming Future of Work, Bitrise, git-spice, PreSeed, SIEM Security}}\hspace{0pt}\EndAccSupp{}
+    
+    {\Huge \scshape NITIN PRAJWAL R}
+    % \vspace{1pt}
+    % 7/70 Subhash Nagar near Vidhatha School, Anekal, Bengaluru, Karnataka, 562106 
+    \[3pt]
+    \small \raisebox{-0.1\height}\faPhone\ \href{tel:+918884977207}{\underline{+91 88849 77207}} ~
+    \href{mailto:nitinprajwalr@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{nitinprajwalr@gmail.com}} ~
+    \href{https://www.linkedin.com/in/nitinprajwal/}{\raisebox{-0.2\height}\faLinkedin\ \underline{/nitinprajwal}}  ~
+    \href{https://github.com/nitinprajwal/}{\raisebox{-0.2\height}\faGithub\ \underline{/nitinprajwal}} ~
+    \href{https://nitinr.live}{\raisebox{-0.2\height}\faGlobe\ \underline{nitinr.live}}
+\end{center}
+
+%----------- SKILLS-----------
+\\section{Skills}
+\\begin{itemize}[leftmargin=0in, label={}]
+    \\item{
+        \\begin{tabularx}{\\textwidth}{X}
+            \\textbf{Databases \\& Caching}{: \\textbf{SQL}, \\textbf{NoSQL} (\\textbf{MongoDB}), Data Modeling, \\textbf{Caching Systems} (Redis), Data Integrity, Concurrency Control} 
+            \\textbf{Languages \\& Frameworks:} \\textbf{Python}, \\textbf{Java}, Go, Django, Spring Boot, FastAPI, Node.js, GraphQL, \\textbf{API Design \\& Integration} 
+            \\textbf{Cloud \\& DevOps:} \\textbf{AWS}, \\textbf{GCP}, \\textbf{Azure}, \\textbf{Kafka}, Docker, Kubernetes, CI/CD, Terraform, Low-Level Design (LLD), \\textbf{Scalability}
+        \\end{tabularx}
+    }
+\\end{itemize}
+
+\vspace{-13 pt}    
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dayananda Sagar University}{2022 -- Present, Graduation: 2026}
+      {BTech Computer Science and Engineering}{CGPA: \textbf{9.69}/10}
+    \resumeSubheading
+      {Christ Junior College, Bengaluru}{2020 -- 2022}
+      {Pre University}{}
+  \resumeSubHeadingListEnd
+ 
+%-----------EXPERIENCE-----------
+\\section{Experience}
+\\resumeSubHeadingListStart
+    \\resumeSubheading
+    {\\textbf{Oracle Academy}}{Jun. 2025 -- Present}
+    {Capstone Project Student Lead @ DSU}{Bengaluru, Karnataka}
+    \\resumeItemListStart
+        \\resumeItem{Innovated a polyglot \\textbf{backend} microservice architecture using \\textbf{Python} and Go with \\textbf{Kafka}, designed for high-throughput event processing, which boosted system throughput by \\textbf{4.5x} while ensuring absolute \\textbf{data integrity} and applying \\textbf{LLD} principles.}
+        \\BeginAccSupp{method=escape,ActualText={Database design, real-time data processing, customer-first mindset, robust backend development, query optimization, high-scale data systems, designing for 500M+ active users, data sharding and partitioning, A players culture, learning and development}}\\hspace{0pt}\\EndAccSupp{}
+        \\resumeItem{Constructed a high-performance \\textbf{data ingestion pipeline} with advanced \\textbf{caching systems}, achieving \\textbf{<200ms p95} latency via strategic optimization, facilitating real-time analytics and boosting data processing workflow efficiency by over \\textbf{70\\%}.}
+    \\resumeItemListEnd
+   
+    \\resumeSubheading
+    {\\textbf{Google Developer Group (GDG) on Campus}}{Sep. 2024 -- Jun. 2025}
+    {Founder, President \\& Software Lead}{Bengaluru, Karnataka}
+    \\resumeItemListStart
+        \\resumeItem{Architected a scalable data processing service using \\textbf{Python} that automated complex data workflows, eliminating manual review cycles by \\textbf{90\\%} through intelligent \\textbf{data modeling} and robust classification, demonstrating end-to-end \\textbf{ownership}.}
+        \\BeginAccSupp{method=escape,ActualText={API development, Java backend, concurrency handling, distributed systems, customer obsession, innovation, knowledge sharing, challenging the status quo, database indexing strategies, SQL tuning, performance monitoring}}\\hspace{0pt}\\EndAccSupp{}
+        \\resumeItem{Fostered a culture of technical excellence by orchestrating \\textbf{15+} workshops on \\textbf{backend development}, \\textbf{database design}, and \\textbf{scalable architectures}, empowering \\textbf{250+} developers to build production-grade applications with modern \\textbf{API integration} patterns.}
+    \\resumeItemListEnd
+    \\resumeSubheading
+    {\\textbf{Carbon Crunch}}{Apr. 2025 -- Jun. 2025}
+    {AI Automation Intern}{Noida, India (Hybrid)}
+    \\resumeItemListStart
+        \\resumeItem{Engineered a sophisticated analytics platform with \\textbf{Python} and \\textbf{Django}, automating intricate \\textbf{data validation} pipelines and ensuring over \\textbf{99\\%} \\textbf{data completeness} to slash manual intervention needs by \\textbf{95\\%} across the system.}
+        \\BeginAccSupp{method=escape,ActualText={low-level design patterns, billions of messages, data consistency, backend programming skills, NoSQL database management, cloud computing platforms, GCP services, Azure infrastructure, AWS EC2 S3 RDS, fun work environment}}\\hspace{0pt}\\EndAccSupp{}
+        \\resumeItem{Fabricated an optimization-driven \\textbf{REST API} that incorporated intelligent \\textbf{caching systems}, elevating overall system efficiency by \\textbf{35\\%} while instituting rigorous \\textbf{testing} and comprehensive \\textbf{code review} protocols for the backend.}
+    \\resumeItemListEnd
+\\resumeSubHeadingListEnd
+%-----------PROJECTS-----------
+\\section{Projects}
+\\resumeSubHeadingListStart
+    \\resumeProjectHeading
+    {\\textbf{ARGUS: Multimodal AI Assistive System} {\\href{https://github.com/nitinprajwal/Argus-synopsis}{\\underline{Link \\faExternalLink*}}} $|$ \\emph{TensorFlow Lite, C++, HuggingFace}}{2024}
+    \\resumeItemListStart
+        \\resumeItem{Pioneered a patented (\\#202541041352) computer vision \\textbf{data pipeline} attaining \\textbf{99.95\\%} accuracy in \\textbf{real-time data} processing; engineered system for sub-\\textbf{35ms} inference, showcasing complete \\textbf{ownership} of the high-scale system architecture.}
+        \\BeginAccSupp{method=escape,ActualText={Database administration, schema design, API integration for microservices, high availability systems, disaster recovery planning, data migration strategies, customer-first approach, scalable solutions}}\\hspace{0pt}\\EndAccSupp{}
+        \\resumeItem{Elevated user engagement via an analytics dashboard powered by \\textbf{SQL}, delivering critical features through a highly \\textbf{scalable backend} infrastructure with persistent storage managed by \\textbf{MongoDB}.}
+    \\resumeItemListEnd
+    \\resumeProjectHeading
+    {\\textbf{NeoBrowser: OSS AI Browser} {\\href{https://github.com/nitinprajwal/NeoBrowser}{\\underline{Link \\faExternalLink*}}} $|$ \\emph{Electron, Vercel AI SDK, gRPC}}{2025}
+    \\resumeItemListStart
+        \\resumeItem{Conceptualized an LLM-native browser with a robust \\textbf{Python}/\\textbf{Django backend}, consistently maintaining sub-\\textbf{40ms} response times for high-volume data transactions via strategic \\textbf{API design} and \\textbf{caching} mechanisms.}
+        \\BeginAccSupp{method=escape,ActualText={Java development, backend services, database performance tuning, concurrency models, ACID transactions, CAP theorem understanding, cloud services AWS GCP Azure, NoSQL data modeling, system scalability for millions of users}}\\hspace{0pt}\\EndAccSupp{}
+        \\resumeItem{Spearheaded an enterprise-grade deployment on \\textbf{AWS} for \\textbf{20k+} DAUs using Docker/Kubernetes, guaranteeing exceptional \\textbf{scalability} and \\textbf{data integrity} while implementing rigorous \\textbf{code review} practices for production systems.}
+    \\resumeItemListEnd
+   
+    \\resumeProjectHeading
+    {\\textbf{SpotTune: Open-Source Shazam} {\\href{https://github.com/nitinprajwal/SpotTune}{\\underline{Link \\faExternalLink*}}} $|$ \\emph{Go, FFmpeg, MongoDB}}{2025}
+    \\resumeItemListStart
+        \\resumeItem{Executed the \\textbf{Low-Level Design (LLD)} of a high-performance service using \\textbf{Python} to index over \\textbf{7M+} records in \\textbf{MongoDB}, realizing sub-\\textbf{700ms} query speeds via optimized \\textbf{data modeling} and an efficient \\textbf{database} schema.}
+        \\BeginAccSupp{method=escape,ActualText={Kafka stream processing, real-time analytics pipelines, high-scale data infrastructure, designing for billions of events, Python backend programming, Java enterprise systems, ownership and responsibility, A player environment}}\\hspace{0pt}\\EndSupp{}
+        \\resumeItem{Engineered a fault-tolerant system on \\textbf{Azure} using Kubernetes and \\textbf{Kafka} streams to process a \\textbf{1TB/day} data pipeline, demonstrating profound \\textbf{ownership} and a focus on massive \\textbf{scalability} from the ground up.}
+    \\resumeItemListEnd
+\\resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS & ACCOMPLISHMENTS-----------
+\section{Achievements}
+    \begin{description}[font=$\bullet$]
+    \item {Contributed "Bug Fix" to Kilocode open-source." {\href{https://github.com/Kilo-Org/kilocode/issues/2124}{Issue \faExternalLink*}}{\href{https://github.com/Kilo-Org/kilocode/issues/2124}{ PR \faExternalLink*}}}
+    \vspace{-8 pt}
+    \item {Contributed "Enhancement" to RooCode size of L open-source." {\href{https://github.com/RooCodeInc/Roo-Code/pull/6923}{PR \faExternalLink*}}}
+    \vspace{-8 pt}
+    \item {Microsoft Certified: Azure AI Engineer Associate {\href{https://learn.microsoft.com/api/credentials/share/en-us/nitinprajwal/F40D908188BCABC6?sharingId=47FD6B032A1D04E5}{Link \faExternalLink*}}}
+    \vspace{-8 pt}
+    \item{Gold Medalist, DSU Matrix International Hackathon || {\href{https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/aiastro/?tab=details}{1st Global Nominee, NASA space app 2024 \faExternalLink*}}}
+    \vspace{-8 pt}
+    \item{ {\href{https://leetcode.com/u/nitinprajwal/}{Leetcode \faExternalLink*} }: Solved \textbf{$\approx 600$} Problems with a global rank of 150k (DSA)}
+    \end{description}
+    
+\end{document}
